@@ -1,0 +1,58 @@
+.welcome {
+    background: #EDF2EC;
+}
+
+.welcome__wrapper {
+    display: flex;
+    padding: 2.4rem 6.9rem 3.2rem 6.2125rem;
+    justify-content: space-between;
+    @include tablet{
+        padding: 33px 42px 70px;
+        flex-direction: row-reverse;
+    }
+    @include mobile{
+        padding: 34px 25px 25px 25px;
+    }
+   
+}
+
+.welcome_block {
+    max-width: 549px;
+    @include tablet{
+        max-width: 346px;
+    }
+    
+}
+.welcome_img{
+    max-width: 448px;
+    @include tablet{
+        max-width: 280px;
+        height: 256px;
+        padding-top: 10px;
+    }
+    @include mobile{
+        display: none;
+    }
+}
+
+.block__titel {
+   padding-bottom: 13px;
+    color: #636060;
+    @include tablet{
+        padding-bottom: 8px;
+    }
+}
+
+.block__text {
+    padding-bottom: 29px;
+    color: #636060;
+
+    @include tablet{
+       text-align: left;
+       vertical-align: top;
+       padding-bottom: 19px;
+    }
+    @include mobile{
+        padding: 0px 0px;
+    }
+}

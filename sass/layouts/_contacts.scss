@@ -1,0 +1,87 @@
+.contacts {
+    background: #EDF2EC;
+}
+.contact_wrapper {
+display: flex;
+padding-bottom: 25px;
+
+@include tablet{
+    flex-direction: column;
+ 
+}
+}
+
+.contact_us{
+    @include font($size:40px,$height:52px,$weight: 700,$style: normal);
+    font-family: 'Inika';
+    color: #499A18;
+    padding: 29px 0px 0px 163px;
+
+    @include tablet{
+        @include font($size:40px,$height:52px,$weight: 700,$style: normal);
+       text-align: center;
+       padding: 7px 20px 0px 0px;
+        order: 0;
+    }
+    @include mobile{
+        @include font($size:25px,$height:32.57px,$weight: 700,$style: normal);
+        padding: 8px 0px 58px 18px;
+    }
+}
+
+.contact_img {
+    // background-image: url(../img/contact_woman\ 1.png)no-repeat;
+    width: 400px;
+    height: 497px;
+    margin: 0px 0px 0px 60px;
+    padding-top: 25px;
+
+    @include tablet{
+        width: 200px;
+        height: 248px;
+        margin: 0 auto;
+        margin-top: 100px;
+        order: 3;
+    }
+    @include mobile{
+        width: 100px;
+        height: 124px;
+        margin-top: 0px;
+        
+    }
+    
+}
+.contact_container {
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    height: 46px;
+    width: 430px;
+    margin: 150px 0px 0px 73px ;
+    padding: 4px 0px 0px 12px;
+
+    @include tablet{
+       margin-top: 66px;
+       margin-left: 148px;
+    }
+    @include mobile{
+        width: 290px;
+        margin: 0px 0px 81px 37px;
+        
+    }
+   
+}
+
+.acordion_contact {
+    @include font($size:20px,$height:40px,$weight: 400,$style: normal);
+    border: none;
+    font-family: 'Inter';
+    text-align: left;
+    letter-spacing: 0.05em;
+    background: #D6E7D2;
+    color: #717171;
+
+    @include tablet{
+       
+    }
+}

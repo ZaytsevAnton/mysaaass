@@ -1,0 +1,11 @@
+.wrapper{
+    max-width: $content-width;
+    margin: 0 auto;
+   @include tablet{
+    max-width: 768px;
+   }
+  @include mobile {
+    
+  }
+}
+
