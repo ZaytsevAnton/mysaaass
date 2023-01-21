@@ -1,0 +1,157 @@
+.Prices__wrapper{
+    padding: 0px 6.563rem 0.813rem 6.813rem;
+    display: flex;
+    justify-content: space-between;
+    @include tablet{
+        padding: 0rem 3.125rem 10rem 2.7rem;
+        justify-content: space-between;
+    }
+    @include mobile{
+        padding: 0rem 3.8rem 1rem 4.9rem;
+        flex-direction: column;
+    }
+}
+
+.Price_block__text{
+    color: #000000;
+    padding-top: 8px;
+    font-family: Inter;
+    @include font ($size:40px, $height:48px, $weight: 700);
+    margin-bottom: 59px;
+    @include tablet {
+        @include font ($size:35px, $height:35px, $weight: 700);
+        margin-bottom: 60px;
+        padding: 18px 0px 0px 10px;
+    }
+    @include mobile{
+        margin: 15px 0px 0px 0px;        
+        @include font ($size:25px, $height:35px, $weight: 700);
+        text-align: center;
+        padding: 0px 0px 36px 0px ;
+    }
+}
+.Price_accordion_wrapper{
+
+}
+.accordion__item{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    padding: 0px 41px 0px 41px;
+    max-width: 332px;
+    height: 282px;
+    @include tablet{
+        padding: 0px 41px 0px 41px;
+    }
+    @include mobile{
+        max-width: 230px;
+        height: 235px;
+        padding: 0px 20px 0px 22px;
+    }
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: solid#EDF2EC;
+    margin-top: 32px;
+    font-family: 'Inter';
+    @include font ($size:20px, $height:35px, $weight: 700,$style:normal);
+    text-align: left;
+    color: #000000;
+    background: #EDF2EC;
+    border-radius: 20px;
+    padding-left: 39px;
+    @include mobile{
+        width: 180px;
+        height: 49px;
+        margin: 0px 0px;
+    }
+}
+
+
+.acordion_img{ 
+    padding-right: 32px;
+}
+
+.Price_right__block{
+    max-width: 470px;
+    height: 405px;
+    @include mobile{
+        width: 230px;
+        height: 130px;
+        padding-bottom: 35px;
+    }
+}
+
+
+.Price__button{
+    font-family: 'Inika';
+    @include font ($size:20px, $height:26px, $weight: 400,$style:normal);
+    color: #E06733;
+    margin-left: 307px;
+
+    @include tablet{
+    margin-left: 168px;
+    margin-bottom: 25px;
+    }
+    @include mobile{
+        margin-left: 51px;
+    
+    }
+}
+
+/* .panel{
+    position: relative;
+    width: 332px;
+    height: 282.01px;
+    margin-top: 38px;
+    left: 370px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 80px;
+} */
+
+
+/* .active, .acordion_img:hover{
+    color: #8BA07E;
+    transform: rotate(180deg);
+} */
+
+.right_block_titel{
+    font-family: 'Inter';
+    @include font ($size:40px, $height:50px, $weight: 700,$style:normal);
+    text-align: right;
+    color: #000000;
+    margin-bottom: 40px;
+    @include mobile{
+       
+    }
+
+    @include tablet{
+        @include font ($size:25px, $height:35px, $weight: 700);
+        text-align: right;
+        max-width: 296px;
+        margin: 140px 0px 30px 32px;
+    }
+    @include mobile{
+        margin: 0px 0px 0px 0px;
+        @include font ($size:20px, $height:35px, $weight: 700);
+        text-align: center;
+        width: 230px;
+        padding: 18px 0px 20px 0px;
+    }
+}
+.price_leafs_img{
+    padding: 35px 0px 0px 309px;
+    @include tablet{
+        width: 152px;
+        padding: 0px 0px 0px 170px;
+    }
+    @include mobile{
+        display: none;
+    }
+}

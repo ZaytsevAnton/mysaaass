@@ -1,0 +1,60 @@
+html{
+
+}
+
+body{
+  overflow-x: hidden;
+    font-family: 'Inika', 'Inter' ,'sans-serif';
+}
+h1 {
+    @extend %font-add;
+    font-family: 'Inter';
+    @include font($size:2.813rem,$height: 3.125rem,$style:bold,$weight:700);
+    @include tablet{
+      @include font($size:2.188rem,$height: 3.125rem,$style:bold,$weight:700);
+    }
+    @include mobile{
+      @include font($size:1.563rem,$height: 2.188rem,$style:bold,$weight:700);
+    }
+}
+
+h2 {
+
+  font-family: 'Inika', "Inter" ,'sans-serif';
+    @include font($size:2.5rem,$height:3.25rem,$weight: normal);
+    color: #499A18;
+    @include tablet {
+      @include font($size:2.188rem,$height:2.85rem,$weight: normal);
+    }
+    @include mobile{
+      @include font($size:1.563rem,$height:2.036rem,$weight: normal);
+    }
+}
+
+h3 {
+ 
+   
+  
+  }
+
+  h4 {
+
+
+    font-family: 'Open Sans';
+    @include font($size:2.2rem,$height:3rem,$weight: 600);
+  }
+
+  h5 {
+
+  
+    @include font($size:1.6rem,$height: 2.6rem);
+  }
+
+  p{
+    font-family: 'Inter';
+    @include font($size:1.25rem,$height:2.188rem,$weight:400);
+    
+    @include tablet{
+      @include font($size:1rem,$height:1.563rem,$weight:400,$style:Regular);
+    }
+  }

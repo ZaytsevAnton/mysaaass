@@ -1,0 +1,21 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+// ABSRACT
+@import "abstract/constant";
+@import "abstract/placeholders";
+@import "abstract/mixins";
+
+
+// BASE
+@import "base/base";
+@import "base/buttons";
+
+// LAYOUTS
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/welcome";
+@import "layouts/About";
+@import "layouts/service";
+@import "layouts/price";
+@import "layouts/contacts";
+@import "layouts/footer";
+// COMPONENTS

@@ -1,0 +1,100 @@
+.About__wrapper {
+    display: flex;
+    padding: 92px 100px 96px 109px;
+    justify-content: space-between;
+
+    @include tablet {
+        padding: 0px 42px 100px;
+        flex-wrap: wrap;
+    }
+
+    @include mobile {
+        padding: 0px 46px 0px 26px;
+        flex-direction: column;
+    }
+}
+
+.About__block {
+    max-width: 605px;
+    height: 350px;
+    padding-top: 37px;
+
+    @include tablet {
+        padding-top: 0px;
+        align-items: center;
+    }
+
+    @include mobile {
+        padding-top: 20px;
+
+    }
+}
+
+.titel__block {
+    max-width: 463px;
+    padding-bottom: 5px;
+
+    @include tablet {
+        max-width: 423px;
+        padding-top: 10px;
+        padding-left: 118px;
+    }
+
+    @include mobile {
+        max-width: 288px;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 7px;
+        margin: 0px 0px;
+
+    }
+
+}
+
+.About-Img {
+    position: relative;
+
+    @include tablet {
+        position: relative;
+        max-width: 250px;
+        height: 258px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 75px;
+    }
+
+    @include mobile {
+        // background-image: url(/img/houseplant_mobile.png ) width 150px height 158px;
+        padding: 0px 0px 0px 0px;
+        width: 50%;
+        height: 50%;
+        bottom: 30px;
+    }
+}
+
+.text__block {
+    color: #636060;
+    line-height: 30px;
+    font-size: 20px;
+
+    @include tablet {
+        text-align: left;
+        padding: 16px 0px;
+        width: 668px;
+    }
+
+    @include mobile {
+        font-size: 15px;
+        line-height: 25px;
+        width: 330px;
+        padding: 10px 0px;
+        text-align: left;
+        margin: 0px 0px;
+
+    }
+}
+
+.green {
+
+    color: #499A18;
+}

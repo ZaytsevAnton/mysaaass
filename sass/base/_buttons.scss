@@ -1,0 +1,97 @@
+.button {
+    padding: 0.625rem 1.625rem 0.625rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    border-radius: 0.625rem;
+    border: 2px solid #E06733;
+    border-radius: 0.625rem;
+    text-align: center;
+    @include mobile{
+        padding: 0.3rem 1.125rem 0.3rem;
+        font-size: 0.625rem;
+        margin-top: 6px;
+    }
+}
+
+.button:hover {
+    background-color: #E06733;
+    color: #FFFFFF;
+    transition: 0.3;
+}
+
+// .service__buttons {
+//     display: flex;
+//     position: relative;
+//     font-family: 'Inika';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 20px;
+//     line-height: 26px;
+//     color: #E06733;
+//     margin-left: 42px;
+// }
+
+.btn {
+    // color: #E06733;
+    line-height: 26px;
+    color: #E06733;
+    background-color: #EDF2EC;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Inika';
+    margin-right: 38px;
+    font-size: 20px;
+    height: 50px;
+    width: 161px;
+    @include mobile{
+        margin-right: 0px;
+        margin-bottom: 5px;
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    
+}
+
+.btn1 {
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 290px;
+}
+
+.btn:hover {
+    color: #D6E7D2;
+    background-color: #E06733;
+    transition: 0.3;
+}
+.service__buttons{
+    padding-left: 142px;
+    @include tablet{
+       padding-left: 0;
+      
+    }
+}
+
+.Price__button{
+    background-color: #FFFFFF;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    margin-left: 307px;
+   
+}
